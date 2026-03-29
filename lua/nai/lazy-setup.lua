@@ -19,7 +19,7 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Setup lazy with empty plugins for now
-require("lazy").setup({"nai.plugins"}, {
+require("lazy").setup("nai.plugins", {
   change_detection = {
     notify = false,
   },
