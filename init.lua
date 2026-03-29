@@ -1,0 +1,2 @@
+require("nai")
+print("hello")
